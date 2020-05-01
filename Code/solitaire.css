@@ -1,0 +1,63 @@
+*
+{
+text-align: center !important;
+margin: auto !important;
+}
+
+#solitaire table{
+  border-collapse:collapse;
+}
+#solitaire table td{
+  padding:0;
+  border:1px dotted ;
+  text-align:center;
+  width:50px;
+  height:50px;
+}
+#solitaire table td.vide{
+    background:PaleTurquoise;
+}
+
+#solitaire table td img{
+  vertical-align:middle;
+}
+#solitaire .acceptable{
+background:yellow;
+}
+
+
+
+#menu a{
+color:black;
+margin-left:0px;
+display:block;
+width:468;
+height:59px;
+background-image:url('bande.png');
+background-position:top;
+text-align:center;
+padding-top:0px;
+text-decoration: none;
+
+}
+
+#menu a:hover{
+background-position:center;
+font-weight:bold;
+}
+
+#menu a:active{
+background-position:bottom;
+}
+
+.titre{
+margin-left:75px;
+}
+
+
+#titre{
+   font-family:"Comic Sans MS", Arial, sans-serif;
+}
+
+
+
